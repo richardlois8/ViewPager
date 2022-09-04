@@ -3,14 +3,192 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".FirstFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:gravity="center"
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/chat_pertama"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:textSize="25sp"
-        android:text="@string/this_is_first_fragment" />
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:cardElevation="3dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/chat_profile"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_marginEnd="14dp"
+            android:src="@drawable/ic_luhut"/>
+
+        <LinearLayout
+            android:id="@+id/pesan_pertama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="4dp">
+
+            <TextView
+                android:id="@+id/pengirim_pertama"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/nama_kontak_satu"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/isi_pertama"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="3dp"
+                android:text="@string/pesan_satu"
+                android:textSize="15sp"
+                android:textColor="#91000000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="end">
+
+            <TextView
+                android:id="@+id/waktu_pertama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="6dp"
+                android:text="@string/waktu_satu"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/chat_kedua"
+        android:layout_marginTop="65dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="3dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/chat_profile_kedua"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_marginEnd="14dp"
+            android:src="@drawable/ic_jokowi"/>
+
+        <LinearLayout
+            android:id="@+id/pesan_kedua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="4dp">
+
+            <TextView
+                android:id="@+id/pengirim_kedua"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/kontak_dua"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/isi_kedua"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="3dp"
+                android:text="@string/pesan_dua"
+                android:textSize="15sp"
+                android:textColor="#91000000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="end">
+
+            <TextView
+                android:id="@+id/waktu_kedua"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="6dp"
+                android:text="@string/waktu_dua"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/chat_ketiga"
+        android:layout_marginTop="120dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardElevation="3dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/chat_profile_ketiga"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_marginEnd="14dp"
+            android:src="@drawable/ic_ferdi"/>
+
+        <LinearLayout
+            android:id="@+id/pesan_ketiga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="4dp">
+
+            <TextView
+                android:id="@+id/pengirim_ketiga"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/kontak_tiga"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/isi_ketiga"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="3dp"
+                android:text="@string/pesan_tiga"
+                android:textSize="15sp"
+                android:textColor="#91000000"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="end">
+
+            <TextView
+                android:id="@+id/waktu_ketiga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="6dp"
+                android:text="@string/waktu_tiga"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
 
 </FrameLayout>
