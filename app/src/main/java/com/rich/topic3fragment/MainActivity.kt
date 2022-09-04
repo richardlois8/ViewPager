@@ -28,8 +28,9 @@ class MainActivity : AppCompatActivity() {
 
         TabLayoutMediator(binding.tabLayout,viewPager){tab, position ->
             when(position){
-                0 -> tab.text = "Tab 1"
-                1 -> tab.text = "Tab 2"
+                0 -> tab.text = "Chats"
+                1 -> tab.text = "Status"
+                2 -> tab.text = "Calls"
             }
         }.attach()
 
