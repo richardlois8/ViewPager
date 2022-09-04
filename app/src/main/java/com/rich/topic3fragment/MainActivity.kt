@@ -34,17 +34,5 @@ class MainActivity : AppCompatActivity() {
             }
         }.attach()
 
-//        setContentView(R.layout.activity_main)
-//        viewPager = findViewById(R.id.view_pager)
-//        tabLayout = findViewById(R.id.tab_layout)
-//        viewPagerAdapter = ViewPagerAdapater(supportFragmentManager,lifecycle)
-//        viewPager.adapter = viewPagerAdapter
-//
-//        TabLayoutMediator(tabLayout,viewPager){tab, position ->
-//            when(position){
-//                0 -> tab.text = "Tab 1"
-//                1 -> tab.text = "Tab 2"
-//            }
-//        }.attach()
     }
 }

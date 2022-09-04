@@ -12,10 +12,11 @@
         android:layout_width="54dp"
         android:layout_height="54dp"
         android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
         android:layout_marginEnd="14dp"
         app:civ_border_color="#91000000"
         app:civ_border_width="3dp"
-        android:src="@drawable/ic_luhut"/>
+        android:src="@drawable/ic_luhut" />
 
     <LinearLayout
         android:id="@+id/story_pertama"
@@ -70,15 +71,17 @@
     
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/status_kedua"
-        android:layout_marginTop="130dp"
+        android:layout_marginTop="100dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:cardElevation="3dp">
+        app:cardElevation="3dp"
+        app:contentPadding="8dp">
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/status_profile_kedua"
             android:layout_width="54dp"
             android:layout_height="54dp"
+            android:layout_marginStart="5dp"
             android:layout_marginEnd="14dp"
             app:civ_border_color="#91000000"
             app:civ_border_width="3dp"
@@ -119,15 +122,17 @@
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/status_ketiga"
-        android:layout_marginTop="185dp"
+        android:layout_marginTop="170dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:cardElevation="3dp">
+        app:cardElevation="3dp"
+        app:contentPadding="8dp">
 
         <de.hdodenhof.circleimageview.CircleImageView
             android:id="@+id/status_profile_ketiga"
             android:layout_width="54dp"
             android:layout_height="54dp"
+            android:layout_marginStart="5dp"
             android:layout_marginEnd="14dp"
             android:src="@drawable/ic_ferdi"/>
 

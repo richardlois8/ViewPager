@@ -12,7 +12,8 @@ class ViewPagerAdapater(fragmentManager : FragmentManager, lifecycle: Lifecycle)
         return when(position){
             0 -> FirstFragment()
             1 -> SecondFragment()
-            else -> SecondFragment()
+            2 -> ThirdFragment()
+            else -> FirstFragment()
         }
     }
 }

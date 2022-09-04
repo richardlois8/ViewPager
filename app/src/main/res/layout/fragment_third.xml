@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    tools:context=".FirstFragment"
+    tools:context=".ThirdFragment"
     android:orientation="vertical">
 
     <com.google.android.material.card.MaterialCardView
@@ -47,7 +47,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:layout_marginTop="3dp"
-                android:text="@string/pesan_satu"
+                android:text="Kemarin, 21:00"
                 android:textSize="15sp"
                 android:textColor="#91000000"/>
 
@@ -58,13 +58,12 @@
             android:layout_height="match_parent"
             android:gravity="end">
 
-            <TextView
-                android:id="@+id/waktu_pertama"
+            <ImageButton
+                android:id="@+id/btnCall2"
+                android:src="@drawable/ic_call"
+                android:backgroundTint="@color/white"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingTop="6dp"
-                android:text="@string/waktu_satu"
-                android:textSize="13sp" />
+                android:layout_height="wrap_content" />
         </LinearLayout>
 
     </com.google.android.material.card.MaterialCardView>
@@ -109,7 +108,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:layout_marginTop="3dp"
-                android:text="@string/pesan_dua"
+                android:text="2 September, 00:00"
                 android:textSize="15sp"
                 android:textColor="#91000000"/>
 
@@ -120,13 +119,12 @@
             android:layout_height="match_parent"
             android:gravity="end">
 
-            <TextView
-                android:id="@+id/waktu_kedua"
+            <ImageButton
+                android:id="@+id/btnCall3"
+                android:src="@drawable/ic_call"
+                android:backgroundTint="@color/white"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingTop="6dp"
-                android:text="@string/waktu_dua"
-                android:textSize="13sp" />
+                android:layout_height="wrap_content" />
         </LinearLayout>
 
     </com.google.android.material.card.MaterialCardView>
@@ -171,7 +169,7 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:layout_marginTop="3dp"
-                android:text="@string/pesan_tiga"
+                android:text="28 Agustus, 17:00"
                 android:textSize="15sp"
                 android:textColor="#91000000"/>
 
@@ -182,13 +180,12 @@
             android:layout_height="match_parent"
             android:gravity="end">
 
-            <TextView
-                android:id="@+id/waktu_ketiga"
+            <ImageButton
+                android:id="@+id/btnCall1"
+                android:src="@drawable/ic_call"
+                android:backgroundTint="@color/white"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingTop="6dp"
-                android:text="@string/waktu_tiga"
-                android:textSize="13sp" />
+                android:layout_height="wrap_content" />
         </LinearLayout>
 
     </com.google.android.material.card.MaterialCardView>
