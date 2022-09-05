@@ -7,71 +7,81 @@
     tools:context=".SecondFragment">
 
     <!-- TODO: Update blank fragment layout -->
-    <de.hdodenhof.circleimageview.CircleImageView
-        android:id="@+id/status_profile"
-        android:layout_width="54dp"
-        android:layout_height="54dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginStart="5dp"
-        android:layout_marginEnd="14dp"
-        app:civ_border_color="#91000000"
-        app:civ_border_width="3dp"
-        android:src="@drawable/ic_luhut" />
-
-    <LinearLayout
-        android:id="@+id/story_pertama"
-        android:layout_width="wrap_content"
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/status_pertama"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginStart="68dp"
-        android:layout_marginTop="14dp">
+        app:cardElevation="3dp"
+        app:contentPadding="8dp">
 
-        <TextView
-            android:id="@+id/pengirim_pertama"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:text="@string/my_status"
-            android:fontFamily="sans-serif-light"
-            android:textStyle="bold"
-            android:textSize="17sp"
-            android:textColor="#000000"/>
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/status_profile"
+            android:layout_width="54dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="14dp"
+            app:civ_border_color="@color/wa_empat"
+            app:civ_border_width="3dp"
+            android:src="@drawable/ic_habibie" />
 
-        <TextView
-            android:id="@+id/isi_pertama"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:layout_marginTop="3dp"
-            android:text="@string/tambah_status"
-            android:textSize="15sp"
-            android:textColor="#91000000"/>
+        <LinearLayout
+            android:id="@+id/story_pertama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginStart="68dp"
+            android:layout_marginTop="14dp">
 
-    </LinearLayout>
+            <TextView
+                android:id="@+id/pengirim_pertama"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/my_status"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:textColor="#000000"/>
 
-    <LinearLayout
-        android:id="@+id/update_list"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="80dp">
+            <TextView
+                android:id="@+id/isi_pertama"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:layout_marginTop="3dp"
+                android:text="@string/tambah_status"
+                android:textSize="15sp"
+                android:textColor="#91000000"/>
 
-        <TextView
-            android:id="@+id/viewed_updates"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:text="@string/viewed_updates"
-            android:fontFamily="sans-serif-light"
-            android:textStyle="bold"
-            android:textSize="15sp"
-            android:textColor="#91000000"/>
+        </LinearLayout>
 
-    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/update_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="80dp">
+
+            <TextView
+                android:id="@+id/viewed_updates"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:text="@string/viewed_updates"
+                android:fontFamily="sans-serif-light"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@color/wa_tiga"/>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
     
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/status_kedua"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="110dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardElevation="3dp"
@@ -83,7 +93,7 @@
             android:layout_height="54dp"
             android:layout_marginStart="5dp"
             android:layout_marginEnd="14dp"
-            app:civ_border_color="#91000000"
+            app:civ_border_color="@color/wa_tiga"
             app:civ_border_width="3dp"
             android:src="@drawable/ic_jokowi"/>
 
@@ -112,9 +122,9 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:layout_marginTop="3dp"
-                android:text="@string/waktu_empat"
+                android:text="@string/waktu_lima"
                 android:textSize="15sp"
-                android:textColor="#91000000"/>
+                android:textColor="@color/wa_tiga"/>
 
         </LinearLayout>
 
@@ -122,7 +132,7 @@
 
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/status_ketiga"
-        android:layout_marginTop="170dp"
+        android:layout_marginTop="180dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardElevation="3dp"
@@ -134,6 +144,8 @@
             android:layout_height="54dp"
             android:layout_marginStart="5dp"
             android:layout_marginEnd="14dp"
+            app:civ_border_color="@color/wa_empat"
+            app:civ_border_width="3dp"
             android:src="@drawable/ic_ferdi"/>
 
         <LinearLayout
@@ -161,9 +173,9 @@
                 android:layout_height="0dp"
                 android:layout_weight="1"
                 android:layout_marginTop="3dp"
-                android:text="@string/waktu_lima"
+                android:text="@string/waktu_enam"
                 android:textSize="15sp"
-                android:textColor="#91000000"/>
+                android:textColor="@color/wa_tiga"/>
 
         </LinearLayout>
         

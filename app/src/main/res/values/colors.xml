@@ -9,4 +9,6 @@
     <color name="white">#FFFFFFFF</color>
     <color name="wa_satu">#075E54</color>
     <color name="wa_dua">#064941</color>
+    <color name="wa_tiga">#91000000</color>
+    <color name="wa_empat">#25D366</color>
 </resources>

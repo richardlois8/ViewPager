@@ -4,18 +4,33 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="this_is_first_fragment">This is first fragment</string>
     <string name="this_is_second_fragment">This is second fragment</string>
-    <string name="nama_kontak_satu">Bapak Luhut Binsar Pandjaitan</string>
+
+    <!--Chat Pertama-->
+    <string name="kontak_satu">Bapak Luhut Binsar Pandjaitan</string>
     <string name="pesan_satu">Kamu ada di mana ?</string>
     <string name="waktu_satu">9:11 AM</string>
+
+    <!--Chat Kedua-->
     <string name="kontak_dua">Bapak Joko Widodo</string>
     <string name="pesan_dua">Martabak satu ya, Nak.</string>
     <string name="waktu_dua">20:07 PM</string>
-    <string name="kontak_tiga">Paduka Ferdi Sambo</string>
+
+    <!--Chat Ketiga-->
+    <string name="kontak_tiga">Paduka F-S</string>
     <string name="pesan_tiga">Saya jemput ya.</string>
     <string name="waktu_tiga">20:10 PM</string>
+
+    <!--Chat Keempat-->
+    <string name="kontak_empat">Mein Fuhrer</string>
+    <string name="pesan_empat">Kapan mau pulang ke Jerman ?</string>
+    <string name="waktu_empat">23:11 PM</string>
+
+    <!--My Status-->
     <string name="my_status">My Status</string>
     <string name="tambah_status">Tap to add status update</string>
     <string name="viewed_updates">Viewed updates</string>
-    <string name="waktu_empat">Today, 20:17 PM</string>
-    <string name="waktu_lima">Today, 07:00 AM</string>
+
+    <!--Additional Time-->
+    <string name="waktu_lima">Today, 20:17 PM</string>
+    <string name="waktu_enam">Today, 07:00 AM</string>
 </resources>
